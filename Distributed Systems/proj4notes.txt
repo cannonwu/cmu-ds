@@ -1,0 +1,39 @@
+Android: Extract input from the user (see InterestingPic Android)
+Android: Build framework of HTTPS request to the web servlet
+- Change BitMap search() to String search() or JSON search()
+- Send user search term to web servlet
+- Send some string a certain the servlet URL or port
+Servlet: Create Servlet
+Servlet: Receive HTTPS request from Android client, Parse
+Android: Finish framwork of HTTPS request to web servlet
+Servlet: Make HTTPS request to API
+Servlet: Receive API JSON reply (print to see what was received)
+Servlet: Parse JSON
+Servlet: Make new parsed JSON string, send to Android Client
+Docker/Heroku: Redeploy Servlet to Docker, deploy to Heroku
+Android: Test 
+
+Android: Receive JSON from Servlet
+Parse JSON String within GSON
+- change all occurrences of Bitmap picture to String picture, change Bitmap search() to String search()
+- change pictureReady(accept String parameter) behavior
+Android: Display info
+Android: Test repeatability
+
+Rename classes
+Try to rename package/project later
+
+
+API KEY: fa3e3c2270200bebc6117c845d736b13
+
+http://192.168.1.151:8080/Project4Task1Servlet2-1.0-SNAPSHOT/sport?name=basketball_nba
+
+C:\Users\18can\IdeaProjects\Project4Task1Servlet2\target\Project4Task1Servlet2-1.0-SNAPSHOT.war
+
+
+HEROKU
+https://fierce-wildwood-03368.herokuapp.com/
+https://git.heroku.com/fierce-wildwood-03368.git
+fierce-wildwood-03368
+
+https://fierce-wildwood-03368.herokuapp.com/sport?name=basketball_nba
