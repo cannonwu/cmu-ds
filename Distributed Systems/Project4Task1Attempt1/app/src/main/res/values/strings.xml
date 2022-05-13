@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Project4Task1Android</string>
+    <string name="hello">Type a sport name to search for odds.</string>
+    <string name="action_settings">Action</string>
+</resources>
